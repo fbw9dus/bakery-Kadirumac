@@ -6,9 +6,9 @@ import {recipeData} from './data.js';
 // \/ All of your javascript should go here \/
 
 var data = JSON.parse(recipeData)
-console.log(data.leng)
-console.log(data.cakes.author)
-console.log(data.cakes.title)
+
+console.log(data.cakes[1].author)
+console.log(data.cakes[1].title)
 
 
 for (var i=0;i<data.cakes.length;i++){
